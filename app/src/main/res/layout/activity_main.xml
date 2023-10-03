@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:hint="Horario" />
 
-        <!-- ... otros EditText para sección, horario, etc. ... -->
+        <!-- otros EditText para sección, horario -->
 
         <Button
             android:id="@+id/mostrarButton"
@@ -57,7 +57,7 @@
             android:id="@+id/firmaImageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/cursos" /> <!-- Suponiendo que tienes una imagen llamada logo.png en res/drawable -->
+            android:src="@drawable/cursos" /> <!--res/drawable -->
 
     </LinearLayout>
 

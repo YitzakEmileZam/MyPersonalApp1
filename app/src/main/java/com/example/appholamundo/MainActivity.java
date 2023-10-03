@@ -22,11 +22,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        // inicializar los otros EditText
         cursoEditText = findViewById(R.id.cursoEditText);
         seccionEditText = findViewById(R.id.seccionEditText);
         horarioEditText= findViewById(R.id.horarioEditText);
-        // ... inicializar los otros EditText ...
+
 
         firmaImageView = findViewById(R.id.firmaImageView);
 
